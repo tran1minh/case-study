@@ -1,0 +1,34 @@
+print("điểm hiện tại của bạn là 0")
+score = 0
+
+print("Python được phát hành vào năm nào?A.1991, B.1989, C.2000, D.1995")
+ans= input("xin mời nhập đáp án:")
+print(ans)
+if (ans == "A"or"a"):
+    print("câu trả lời của bạn đúng")
+    score += 1
+else:
+    print("câu trả lời của bạn sai")
+print(score)
+
+print("Ai là người tạo ra Python? A. Guido van Rossum, B. Dennis Ritchie, C. James Gosling, D. Bjarne Stroustrup")
+ans1= input("xin mời nhập đáp án:")
+print(ans1)
+if (ans1 == "A"or"a"):
+    print("câu trả lời của bạn đúng")
+    score += 1
+else:
+    print("câu trả lời của bạn sai")
+
+print(score)
+
+print("Câu lệnh nào dùng để hiển thị dữ liệu ra màn hình trong Python? A. print(), B. cout<<, C. System.out.println(), D. echo")
+ans2 = input("xin mời nhập đáp án:")
+print(ans2)
+if (ans2 == "A"or"a"):
+    print("câu trả lời của bạn đúng")
+    score += 1
+else:
+    print("câu trả lời của bạn sai")
+
+print(score)
